@@ -1,15 +1,13 @@
-### Date created
-Include the date you created this project and README file.
+### Date:   Fri Apr 17 18:46:36 2020
 
-### Project Title
-Replace the Project Title
+### US Bikeshare Data Analysis
 
 ### Description
-Describe what your project is about and what it does
+A simple app to analyse US bikeshare data from 3 cities 'Chicago','New York City',and 'Washington DC' across the United State.
 
 ### Files used
-Include the files used
+bikeshare_2.py
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+.gitignore
 
+README.md
