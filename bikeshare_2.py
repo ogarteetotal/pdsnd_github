@@ -189,13 +189,13 @@ def user_stats(df):
 def view_raw_data(df):
     '''
     Show csv file by prompting users 
-    whether they would like want to see the raw data    
+    if they would like to see the raw data    
     '''
-    # Display raw data to users that would like to see it
+    # Display raw data to users that are interested
     start_raw_data = 0
     end_raw_data = 5
 
-    raw_data = input('Do you like  to see the raw data? Enter yes or no. \n').lower()
+    raw_data = input('Do you like to see the raw data? Enter yes or no. \n').lower()
     if raw_data.lower() == 'yes':
         while end_raw_data <= df.shape[0] - 1:
 
