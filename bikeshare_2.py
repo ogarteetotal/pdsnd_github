@@ -39,7 +39,7 @@ def get_filters():
     # get user input for month (all, january, february, ... , june)
     month = input('Enter any of the following month (all, january, february, ... , june): ').lower()
     while month not in months:
-        print('Please,enter the a valid month')
+        print('Please, enter a valid month')
         month = input('Please, enter the correct input: ').lower()
         print()
 
